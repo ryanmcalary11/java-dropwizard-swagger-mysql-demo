@@ -1,5 +1,6 @@
 package org.kainos.ea.core;
 
+
 public class ProductValidator
 {
     public String isValidProduct(ProductRequest product)
@@ -17,8 +18,5 @@ public class ProductValidator
         if(product.getPrice().length() < 10)
         {
             return "Price less than £10";
-        }
-        return null;
-    }
 
 }
